@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" width="100%" height="100%" style="background-color: transparent">
+  <style>
+        .bg { fill: transparent; }
+        .dot { fill: #FFFFFF; }
+        .red-dot { fill: #EA0029; }
+        
+        .f1 { animation: tail1 1.2s infinite steps(1); }
+        .f2 { animation: tail2 1.2s infinite steps(1); }
+        .f3 { animation: tail3 1.2s infinite steps(1); }
+        
+        @keyframes tail1 {
+            0%, 24.9% { opacity: 1; }
+            25%, 100% { opacity: 0; }
+        }
+        @keyframes tail2 {
+            0%, 24.9% { opacity: 0; }
+            25%, 49.9% { opacity: 1; }
+            50%, 74.9% { opacity: 0; }
+            75%, 99.9% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+        @keyframes tail3 {
+            0%, 49.9% { opacity: 0; }
+            50%, 74.9% { opacity: 1; }
+            75%, 100% { opacity: 0; }
+        }
+    </style>
+  <circle cx="35" cy="15" r="3.5" class="dot"/>
+  <circle cx="75" cy="15" r="3.5" class="dot"/>
+  <circle cx="35" cy="25" r="3.5" class="dot"/>
+  <circle cx="45" cy="25" r="3.5" class="dot"/>
+  <circle cx="65" cy="25" r="3.5" class="dot"/>
+  <circle cx="75" cy="25" r="3.5" class="dot"/>
+  <circle cx="35" cy="35" r="3.5" class="dot"/>
+  <circle cx="45" cy="35" r="3.5" class="dot"/>
+  <circle cx="55" cy="35" r="3.5" class="dot"/>
+  <circle cx="65" cy="35" r="3.5" class="dot"/>
+  <circle cx="75" cy="35" r="3.5" class="dot"/>
+  <circle cx="35" cy="45" r="3.5" class="dot"/>
+  <circle cx="55" cy="45" r="3.5" class="dot"/>
+  <circle cx="75" cy="45" r="3.5" class="dot"/>
+  <circle cx="35" cy="55" r="3.5" class="dot"/>
+  <circle cx="45" cy="55" r="3.5" class="dot"/>
+  <circle cx="55" cy="55" r="3.5" class="dot"/>
+  <circle cx="65" cy="55" r="3.5" class="dot"/>
+  <circle cx="75" cy="55" r="3.5" class="dot"/>
+  <circle cx="45" cy="65" r="3.5" class="dot"/>
+  <circle cx="55" cy="65" r="3.5" class="dot"/>
+  <circle cx="65" cy="65" r="3.5" class="dot"/>
+  <circle cx="45" cy="75" r="3.5" class="dot"/>
+  <circle cx="55" cy="75" r="3.5" class="dot"/>
+  <circle cx="65" cy="75" r="3.5" class="dot"/>
+  <circle cx="45" cy="85" r="3.5" class="dot"/>
+  <circle cx="55" cy="85" r="3.5" class="dot"/>
+  <circle cx="65" cy="85" r="3.5" class="dot"/>
+  <circle cx="35" cy="95" r="3.5" class="dot"/>
+  <circle cx="45" cy="95" r="3.5" class="dot"/>
+  <circle cx="55" cy="95" r="3.5" class="dot"/>
+  <circle cx="65" cy="95" r="3.5" class="dot"/>
+  <circle cx="75" cy="95" r="3.5" class="dot"/>
+  <circle cx="35" cy="105" r="3.5" class="dot"/>
+  <circle cx="45" cy="105" r="3.5" class="dot"/>
+  <circle cx="55" cy="105" r="3.5" class="dot"/>
+  <circle cx="65" cy="105" r="3.5" class="dot"/>
+  <circle cx="75" cy="105" r="3.5" class="dot"/>
+  <circle cx="35" cy="115" r="3.5" class="dot"/>
+  <circle cx="45" cy="115" r="3.5" class="dot"/>
+  <circle cx="65" cy="115" r="3.5" class="dot"/>
+  <circle cx="75" cy="115" r="3.5" class="dot"/>
+  <circle cx="35" cy="125" r="3.5" class="dot"/>
+  <circle cx="45" cy="125" r="3.5" class="dot"/>
+  <circle cx="65" cy="125" r="3.5" class="dot"/>
+  <circle cx="75" cy="125" r="3.5" class="dot"/>
+  <circle cx="85" cy="105" r="3.5" class="dot"/>
+  <g class="f1">
+    <circle cx="85" cy="95" r="3.5" class="dot"/>
+    <circle cx="85" cy="85" r="3.5" class="dot"/>
+    <circle cx="95" cy="75" r="3.5" class="dot"/>
+    <circle cx="95" cy="65" r="3.5" class="red-dot"/>
+  </g>
+  <g class="f2">
+    <circle cx="95" cy="95" r="3.5" class="dot"/>
+    <circle cx="105" cy="85" r="3.5" class="dot"/>
+    <circle cx="105" cy="75" r="3.5" class="dot"/>
+    <circle cx="105" cy="65" r="3.5" class="red-dot"/>
+  </g>
+  <g class="f3">
+    <circle cx="95" cy="105" r="3.5" class="dot"/>
+    <circle cx="105" cy="95" r="3.5" class="dot"/>
+    <circle cx="115" cy="85" r="3.5" class="dot"/>
+    <circle cx="115" cy="75" r="3.5" class="red-dot"/>
+  </g>
+</svg>

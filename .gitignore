@@ -1,0 +1,6 @@
+*.py
+my-video/
+SVGFiles/Terminals&UI/make_*.py
+SVGFiles/make_*.py
+*.b64
+.DS_Store
